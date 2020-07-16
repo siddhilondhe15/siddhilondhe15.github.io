@@ -1,12 +1,11 @@
 body, html{
   height:100%;
   margin:0;
-  font-size:7vw;
+  font-size:16px;
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
   color:#666;
-}
 
 
 
@@ -112,8 +111,8 @@ body, html{
 }
 
 .section-dark{
-  background-color:#f4f4f4;
-  color:#666;
+  background-color:#282e34;
+  color:#ddd;
 }
 
 .ptext{
@@ -122,7 +121,7 @@ body, html{
   width:100%;
   text-align:center;
   color:#000;
-  font-size:5vw;
+  font-size:27px;
   letter-spacing:8px;
   text-transform:uppercase;
 }
@@ -140,12 +139,7 @@ body, html{
 @media(max-width:568px){
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     background-attachment:scroll;
-    width:100%;
-    height:auto;
   }
 }
-@media (min-width: 640px) { body {font-size:0.5rem;} } 
-@media (min-width:960px) { body {font-size:1rem;} } 
-@media (min-width:1100px) { body {font-size:1.2rem;} }
 
 
