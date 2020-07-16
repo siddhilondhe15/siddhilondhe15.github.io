@@ -6,6 +6,8 @@ body, html{
   font-weight:400;
   line-height:1.8em;
   color:#666;
+}
+
 
 
 
@@ -111,8 +113,8 @@ body, html{
 }
 
 .section-dark{
-  background-color:#282e34;
-  color:#ddd;
+  background-color:#f4f4f4;
+  color:#666;
 }
 
 .ptext{
@@ -141,5 +143,3 @@ body, html{
     background-attachment:scroll;
   }
 }
-
-
