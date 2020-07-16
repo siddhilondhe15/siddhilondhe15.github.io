@@ -142,3 +142,11 @@ body, html{
     background-attachment:scroll;
   }
 }
+
+
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    .ptext ,.ptext.border{ width:100%; }
+    
+}
