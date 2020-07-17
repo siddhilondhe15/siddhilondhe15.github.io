@@ -143,4 +143,4 @@ body, html{
     background-attachment:scroll;
   }
 }
-@media only screen and (max-width: 500px) { div {width: 100%;}}
+@media(max-width: 500px) { div {width: 100%;}}
