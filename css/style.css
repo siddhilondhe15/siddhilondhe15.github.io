@@ -1,16 +1,18 @@
 body, html{
-  height:100%;
-  margin:0;
-  font-size:16px;
-  font-family:"Lato", sans-serif;
-  font-weight:400;
-  line-height:1.8em;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "lato", sans-serif;
+  line-height: 1.7;
   color:#666;
+  
 }
 
 
 
 .pimg1{
+
  background-image: url('../assets/img/parallax1.jpg');
   position:relative;
   opacity:0.80;
@@ -23,11 +25,13 @@ body, html{
     scroll = normal
   */
   background-attachment:fixed;
+
   min-height: 500px ;
 
 }
 
 .pimg2{
+
   background-image:url('../assets/img/parallax2.jpg');
    position:relative;
     opacity:0.80;
@@ -46,6 +50,7 @@ body, html{
 }
 
 .pimg3{
+
   background-image:url('../assets/img/parallax3.jpg');
    position:relative;
   opacity:0.80;
@@ -57,14 +62,16 @@ body, html{
     fixed = parallax
     scroll = normal
   */
-  background-attachment:fixed;
+
   min-height: 500px ;
+
 
   
 }
 
 
 .pimg4{
+
   background-image:url('../assets/img/parallax4.jpg');
    position:relative;
     opacity:0.80;
@@ -84,6 +91,7 @@ body, html{
 
 
 .pimg5{
+
   background-image:url('../assets/img/parallax5.jpg');
    position:relative;
     opacity:0.80;
@@ -98,12 +106,12 @@ body, html{
   background-attachment:fixed;
    min-height: 500px ;
 
- 
 }
 
+
 .section{
-  text-align:center;
-  padding:50px 80px;
+  text-align: center;
+  padding: 50px 80px;
 }
 
 .section-light{
@@ -117,15 +125,17 @@ body, html{
 }
 
 .ptext{
-  position:absolute;
-  top:50%;
-  width:100%;
-  text-align:center;
+   position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 27px;
+  letter-spacing: 7px;
   color:#000;
-  font-size:27px;
-  letter-spacing:8px;
-  text-transform:uppercase;
+  
 }
+
 
 .ptext .border{
   background-color:#111;
@@ -137,8 +147,18 @@ body, html{
   background-color:transparent;
 }
 
-@media(max-width:568px){
+@media(max-width:468px){
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     background-attachment:scroll;
   }
+  .ptext {
+    font-size: 15px;
+    letter-spacing: 4px;
+  }
+
+  .section {
+    padding: 50px 10px;
+  }
 }
+
+
