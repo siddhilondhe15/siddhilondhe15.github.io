@@ -8,9 +8,11 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
-  position:relative;
-  opacity:0.70;
+.pimg1{
+  background-image:url('assets/img/parallax1.jpg');
+  min-height:100%;
+   position:relative;
+  opacity:0.80;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -22,30 +24,68 @@ body, html{
   background-attachment:fixed;
 }
 
-.pimg1{
-  background-image:url('assets/img/parallax1.jpg');
-  min-height:100%;
-}
-
 .pimg2{
   background-image:url('assets/img/parallax2.jpg');
   min-height:400px;
+  position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
 }
 
 .pimg3{
   background-image:url('assets/img/parallax3.jpg');
-  min-height:400px;
+  min-height:400px;.position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
 }
 
 
 .pimg4{
   background-image:url('assets/img/parallax4.jpg');
   min-height:400px;
+  position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
 }
 
 .pimg5{
   background-image:url('assets/img/parallax5.jpg');
   min-height:400px;
+  position:relative;
+  opacity:0.80;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
 }
 
 .section{
