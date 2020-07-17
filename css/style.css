@@ -1,20 +1,16 @@
 body, html{
   height:100%;
   margin:0;
-  font-size:100%;
+  font-size:16px;
   font-family:"Lato", sans-serif;
   font-weight:400;
   line-height:1.8em;
   color:#666;
-  
 }
 
-
-
-.pimg1{
- background-image: url('assets/img/parallax1.jpg');
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
   position:relative;
-  opacity:0.80;
+  opacity:0.70;
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -24,84 +20,33 @@ body, html{
     scroll = normal
   */
   background-attachment:fixed;
-  min-height: 500px ;
+}
 
+.pimg1{
+  background-image:url('assets/img/parallax1.jpg');
+  min-height:100%;
 }
 
 .pimg2{
   background-image:url('assets/img/parallax2.jpg');
-   position:relative;
-    opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-   min-height: 500px ;
-
- 
+  min-height:400px;
 }
 
 .pimg3{
   background-image:url('assets/img/parallax3.jpg');
-   position:relative;
-  opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-  min-height: 500px ;
-
-  
+  min-height:400px;
 }
 
 
 .pimg4{
   background-image:url('assets/img/parallax4.jpg');
-   position:relative;
-    opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-   min-height: 500px ;
-
- 
+  min-height:400px;
 }
-
 
 .pimg5{
   background-image:url('assets/img/parallax5.jpg');
-   position:relative;
-    opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-   min-height: 500px ;
-
- 
+  min-height:400px;
 }
-
 
 .section{
   text-align:center;
@@ -114,8 +59,8 @@ body, html{
 }
 
 .section-dark{
-  background-color:#f4f4f4;
-  color:#666;
+  background-color:#282e34;
+  color:#ddd;
 }
 
 .ptext{
@@ -139,7 +84,7 @@ body, html{
   background-color:transparent;
 }
 
-@media(max-width:400px){
+@media(max-width:568px){
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5{
     background-attachment:scroll;
   }
