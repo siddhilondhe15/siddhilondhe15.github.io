@@ -10,7 +10,7 @@ body, html{
 
 .pimg1{
   background-image:url('assets/img/parallax1.jpg');
-  min-height:100%;
+   min-height: 500px ;
    position:relative;
   opacity:0.80;
   background-position:center;
@@ -26,7 +26,7 @@ body, html{
 
 .pimg2{
   background-image:url('assets/img/parallax2.jpg');
-  min-height:400px;
+  min-height: 500px ;
   position:relative;
   opacity:0.80;
   background-position:center;
@@ -42,7 +42,8 @@ body, html{
 
 .pimg3{
   background-image:url('assets/img/parallax3.jpg');
-  min-height:400px;.position:relative;
+  min-height: 500px ; 
+  position:relative;
   opacity:0.80;
   background-position:center;
   background-size:cover;
@@ -58,7 +59,7 @@ body, html{
 
 .pimg4{
   background-image:url('assets/img/parallax4.jpg');
-  min-height:400px;
+   min-height: 500px ;
   position:relative;
   opacity:0.80;
   background-position:center;
@@ -74,7 +75,7 @@ body, html{
 
 .pimg5{
   background-image:url('assets/img/parallax5.jpg');
-  min-height:400px;
+  min-height: 500px ;
   position:relative;
   opacity:0.80;
   background-position:center;
