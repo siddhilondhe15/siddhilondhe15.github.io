@@ -12,57 +12,39 @@ body, html{
 
 
 .pimg1{
-
- background-image: url('../assets/img/parallax1.jpg');
-  position:relative;
-  opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-
+ background-image: url('assets/img/parallax1.jpg');
+ position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 500px ;
 
 }
 
 .pimg2{
+  background-image:url('assets/img/parallax2.jpg');
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px ;
 
-  background-image:url('../assets/img/parallax2.jpg');
-   position:relative;
-    opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-   min-height: 500px ;
 
  
 }
 
 .pimg3{
-
-  background-image:url('../assets/img/parallax3.jpg');
-   position:relative;
-  opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-
+  background-image:url('assets/img/parallax3.jpg');
+   position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   min-height: 500px ;
 
 
@@ -71,40 +53,28 @@ body, html{
 
 
 .pimg4{
-
-  background-image:url('../assets/img/parallax4.jpg');
-   position:relative;
-    opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-   min-height: 500px ;
+  background-image:url('assets/img/parallax4.jpg');
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px ;
 
  
 }
 
 
 .pimg5{
-
-  background-image:url('../assets/img/parallax5.jpg');
-   position:relative;
-    opacity:0.80;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-  /*
-    fixed = parallax
-    scroll = normal
-  */
-  background-attachment:fixed;
-   min-height: 500px ;
+  background-image:url('assets/img/parallax5.jpg');
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 500px ;
 
 }
 
